@@ -38,12 +38,4 @@ def glo():
 glo()
 print(xi)
 
-f1 = open('f1.txt','w')
-f1.write(str(xi))
-f1.close()
-f1 = open('f1.txt','a')
-f1.write('\nnext line')
-f1.close()
 #
-f1 = open('f1.txt','r')
-print(f1.readlines())
