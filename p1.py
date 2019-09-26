@@ -35,7 +35,5 @@ def glo():
     h += 5
     print(h)
 
-glo()
-print(xi)
 
 #
